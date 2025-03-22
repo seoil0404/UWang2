@@ -121,7 +121,7 @@ public class EnemyAiSlime : MonoBehaviour
         nextmove = Random.Range(-1, 2);
         FlipCheck();
         int rate = Random.Range(2, 5);
-        Invoke("Think", rate);
+        Invoke(nameof(Think), rate);
     }
 
     void FlipCheck()
