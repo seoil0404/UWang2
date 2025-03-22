@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0219: 변수가 할당되었지만 해당 값이 사용되지 않았습니다.
+dotnet_diagnostic.CS0219.severity = warning
